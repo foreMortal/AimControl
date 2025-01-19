@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eaeabc12ea76bc43b35d5adde352da2, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  ps:
+  - {fileID: 21300000, guid: e519731582d4e3147b696db8f1589f4f, type: 3}
+  - {fileID: 21300000, guid: cc026010337aab0489975df941d8514f, type: 3}
+  - {fileID: 21300000, guid: 6630e388e6d9643428226ceeb71a4682, type: 3}
+  - {fileID: 21300000, guid: 5864bef7d62169a489bcc81842cfca7f, type: 3}
+  - {fileID: 21300000, guid: 9550c36135f60a84fb17b717e774e997, type: 3}
+  - {fileID: 21300000, guid: 4c4a50e3a0d1eeb4bb4e8705381c4e51, type: 3}
+  - {fileID: 21300000, guid: 3dea845dffad80242a902ec95bafc5fb, type: 3}
+  - {fileID: 21300000, guid: 6cadce10bd1830246bc6bd9dfa02e34c, type: 3}
+  - {fileID: 21300000, guid: 0d9ba4521ad6f6047b87b349217aa155, type: 3}
+  - {fileID: 21300000, guid: 6f5cd731e6469b948a31a37cee6e4ef2, type: 3}
+  - {fileID: 21300000, guid: c3dc5c92b4ba2ec46a1834de242b1231, type: 3}
+  - {fileID: 21300000, guid: d5eaa2ddc4c3d6b4b83a2c5b30d88ccc, type: 3}
+  - {fileID: 21300000, guid: c970e62060c50074b83596cb7acf5ee4, type: 3}
+  - {fileID: 21300000, guid: 3e0ce27f418ba724195de3c6d1ed02db, type: 3}
+  xb:
+  - {fileID: 21300000, guid: 582fd81af54336a439160dfe6adcfcf0, type: 3}
+  - {fileID: 21300000, guid: 850f843cb8e1b4b4fb9ab652575348c9, type: 3}
+  - {fileID: 21300000, guid: dc91afb205a8d7c4fa32d595763b3b98, type: 3}
+  - {fileID: 21300000, guid: de2dca01948c1844ea267c4b8f77f4c1, type: 3}
+  - {fileID: 21300000, guid: 8785331f0f181cc4a92be877524383f4, type: 3}
+  - {fileID: 21300000, guid: 5454e40c0da504e41a1bbd7e20d72179, type: 3}
+  - {fileID: 21300000, guid: 43529e6194bdd704b80903bf8e1905fe, type: 3}
+  - {fileID: 21300000, guid: 6236fbae99f83a245840b113ed72a26d, type: 3}
+  - {fileID: 21300000, guid: 4546dc9ecb1923d40a0aa64c984ccef3, type: 3}
+  - {fileID: 21300000, guid: 6e875c8bddab7c7478b8b6e0215d96e0, type: 3}
+  - {fileID: 21300000, guid: 1b6afa4ca63335d498123c29c1eb8abd, type: 3}
+  - {fileID: 21300000, guid: 7063c90f05f24884aa907fc0b8c536bd, type: 3}
+  - {fileID: 21300000, guid: 120958b441c4b204b938574e38134f03, type: 3}
+  - {fileID: 21300000, guid: 8837da3b666d4ff44a7d7fc592bdabd1, type: 3}
+  ph:
+  - <Gamepad>/buttonWest
+  - <Gamepad>/buttonNorth
+  - <Gamepad>/buttonEast
+  - <Gamepad>/buttonSouth
+  - <Gamepad>/dpad/left
+  - <Gamepad>/dpad/up
+  - <Gamepad>/dpad/right
+  - <Gamepad>/dpad/down
+  - <Gamepad>/leftStickPress
+  - <Gamepad>/rightStickPress
+  - <Gamepad>/leftShoulder
+  - <Gamepad>/rightShoulder
+  - <Gamepad>/leftTrigger
+  - <Gamepad>/rightTrigger
+  ButtonsType: 0
+  RecoilIndex: 0
+  GameName: 

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448622f0b3c8c234e99f4ad4ed6c2977, type: 3}
+  m_Name: SphereUltraHard
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  deltaSpeed: 5
+  increasedSpeed: 5
+  deacreasedSpeed: 1
+  minChangeTime: 0.1
+  maxChangeTime: 0.3
+  regularSpeedLimit: 3
+  minRegLimit: 1.5
+  maxRegLimit: 2.5
+  currSpeed: 0
+  canChangeSpeed: 1
+  hard: 1

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Head
+  - Buddy
+  - point
+  - North
+  - South
+  - West
+  - East
+  - ArkStar
+  - CanGetHitted
+  - Gun
+  - SettingsController
+  - Level
+  - FastTrainHandler
+  - PickLevelHandler
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - ground
+  - Wall
+  - SpecialWall
+  - Weapon
+  - fliksCollLayer
+  - player
+  - AimAssist
+  - Interactable
+  - PostProcessing
+  - Flicks
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &61225534945193013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 61225534945193015}
+  - component: {fileID: 61225534945193019}
+  - component: {fileID: 61225534945193016}
+  - component: {fileID: 61225534945193023}
+  - component: {fileID: 61225534945193022}
+  - component: {fileID: 61225534945193017}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &61225534945193015
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61225534945193013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.44, y: 165.8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &61225534945193019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61225534945193013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f88a83cef89bc4fb7c2b09188a1fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handler: {fileID: 61225534945193017}
+  _timerText: {fileID: 0}
+  shooting: {fileID: 61225534945193022}
+  lookAtPlayer: {fileID: 0}
+  succeed: {fileID: 0}
+  fail: {fileID: 0}
+  EndMenu: {fileID: 0}
+--- !u!114 &61225534945193016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61225534945193013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 762d1a443dbc6bd4ba28685741ad2cb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 0}
+  gun: {fileID: 0}
+  handler: {fileID: 61225534945193017}
+--- !u!114 &61225534945193023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61225534945193013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae73ec037db33d14bbde4bc46f826d4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  player: {fileID: 0}
+  playerSP: {fileID: 0}
+  LedderUpSp:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  LedderDownSp:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &61225534945193022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61225534945193013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 678c888d2f2647a4ea595f4d8544a0b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  targetMove: {fileID: 0}
+  target: {fileID: 0}
+  move: {fileID: 0}
+  timeBetwenShoots: 0.07
+  damage: 34
+  headDamage: 49
+  fpsCam: {fileID: 0}
+  impactEffect: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7, type: 3}
+  canDie: 0
+--- !u!114 &61225534945193017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61225534945193013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f00f5463020e9cd4a948e37738e538b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer_: {fileID: 61225534945193019}
+  levelName: LedderChecking
+  parametersName:
+  - 'Accuracy: '
+  - 'Succeeded: '
+  - 'Failed: '
+  - 'Headshots: '
+  - 'Bodyshots: '
+  - 'Time played: '
+  DopSymbols:
+  - '%'
+  - 
+  - 
+  - 
+  - 
+  - sec
+  StopGameMenu:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  EndGameMenu:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  accuracy_: 1
+  succeeded_: 1
+  failed_: 1
+  damageDelt_: 0
+  damageTaken_: 0
+  headSH_: 1
+  bodySH_: 1
+  time_: 1

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: baf5dc19751775b4b814d1fcc7fdc435, type: 3}
+  m_Name: ApexRecoils
+  m_EditorClassIdentifier: 
+  recoils:
+  - {fileID: 11400000, guid: 94bdf153b36342f47b0f22f41a6119ad, type: 2}
+  - {fileID: 11400000, guid: 6be6a049876b0304dacf826dfd5f38e2, type: 2}
+  - {fileID: 11400000, guid: a58a0143b51c2da4db909f5ea3065f2b, type: 2}
+  - {fileID: 11400000, guid: 4d8b7f7aedd73e04cbf87f818281e387, type: 2}
+  - {fileID: 11400000, guid: b33b9b69c6fe57d4ebd98e4bc8d7c643, type: 2}
+  - {fileID: 11400000, guid: f90bda10a452ae4449bbb6f16804206f, type: 2}
+  - {fileID: 11400000, guid: 75e738b55eed9f647aefcce753c464a1, type: 2}
+  - {fileID: 11400000, guid: cf91de86beaf6b4419835b6e5eddd251, type: 2}
+  - {fileID: 11400000, guid: be0fdce0b472c254e8679df246089289, type: 2}
+  - {fileID: 11400000, guid: 1e43de6023e939b4aade6da60f7f6f85, type: 2}
+  - {fileID: 11400000, guid: f1aa77f033dec1b4f8ce23f0dbe7e0a5, type: 2}
+  - {fileID: 11400000, guid: 617d79bf249ac2646b88c96f76fcc166, type: 2}
+  - {fileID: 11400000, guid: 0f35155238d21254a82af1882cc26e68, type: 2}
+  - {fileID: 11400000, guid: beb05ce40c32ba04ca4d4b272b646d49, type: 2}
+  - {fileID: 11400000, guid: 13618b16cafa2f34faec5c266b11fcc9, type: 2}
+  - {fileID: 11400000, guid: 3a1138426af74304089c0026ca351bf9, type: 2}
+  - {fileID: 11400000, guid: 89405c24fd5ba5d468744242b228ee27, type: 2}
+  - {fileID: 11400000, guid: 1639896600fbbc64aaeb6815c2736027, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a706c785accf04d42910423d2e4ee4c1, type: 3}
+  m_Name: LevelName
+  m_EditorClassIdentifier: 
+  type: 
+  distance: 
+  dificulty: 
+  strafeDistance: 
+  weapon: 
+  petName: 
+  targeting: 0
+  accuracy_: 0
+  succeeded_: 0
+  failed_: 0
+  damageDelt_: 0
+  damageTaken_: 0
+  headSH_: 0
+  bodySH_: 0
+  time_: 0
+  hits_: 0
+  misses_: 0
+  targetsLost_: 0
+  exelentShots_: 0
+  normalShots_: 0
+  trackAccuracy_: 0
+  trackingTime_: 0
+  missingTargetTime_: 0
+  recordTime_: 0

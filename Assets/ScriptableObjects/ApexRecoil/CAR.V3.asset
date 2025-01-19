@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1288b5a493a9ed644aebe02c74245c4b, type: 3}
+  m_Name: CAR.V3
+  m_EditorClassIdentifier: 
+  weaponName: C.A.R.
+  s1:
+  - -2.5
+  - 15
+  - 0.04
+  s2:
+  - -5
+  - 15
+  - 0.04
+  s3:
+  - -2.5
+  - 15
+  - 0.04
+  s4:
+  - -10
+  - 10
+  - 0.04
+  s5:
+  - 5
+  - 15
+  - 0.04
+  s6:
+  - -10
+  - 15
+  - 0.04
+  s7:
+  - -2.5
+  - 15
+  - 0.04
+  s8:
+  - 5
+  - 10
+  - 0.04
+  s9:
+  - 10
+  - 15
+  - 0.04
+  s10:
+  - -2.5
+  - 15
+  - 0.04
+  s11:
+  - 10
+  - 5
+  - 0.04
+  s12:
+  - 10
+  - -5
+  - 0.04
+  s13:
+  - 10
+  - 2.5
+  - 0.04
+  s14:
+  - 2.5
+  - 5
+  - 0.04
+  s15:
+  - -15
+  - 2.5
+  - 0.04
+  s16:
+  - -20
+  - 2.5
+  - 0.04
+  s17:
+  - -10
+  - 5
+  - 0.04
+  s18:
+  - 5
+  - 5
+  - 0.04
+  s19:
+  - 2.5
+  - 5
+  - 0.04
+  s20:
+  - 2.5
+  - -2.5
+  - 0.04
+  s21:
+  - 20
+  - -10
+  - 0.04
+  s22:
+  - 2.5
+  - -2.5
+  - 0.04
+  s23:
+  - 2.5
+  - 7
+  - 0.04
+  s24:
+  - -2.5
+  - 2.5
+  - 0.04
+  s25:
+  - -15
+  - 2.5
+  - 0.04
+  s26:
+  - -2.5
+  - 2.5
+  - 0.04
+  s27: []
+  s28: []
+  s29: []
+  s30: []
+  s31: []
+  s32: []
+  s33: []
+  s34: []
+  s35: []
+  s36: []
+  s37: []
+  s38: []
+  s39: []
+  s40: []
+  s41: []
+  s42: []
+  s43: []
+  s44: []
+  s45: []
+  s46: []
+  s47: []
+  s48: []
+  s49: []
+  s50: []
+  s51: []
+  s52: []
+  s53: []
+  s54: []
+  s55: []
+  s56: []
+  s57: []
+  s58: []
+  s59: []
+  s60: []
+  s61: []
+  bulletsCount: 26
+  timebetweenShots: 0.064
+  haveDelay: 0
+  delay: 0
+  burst: 0
+  timeBetweenBursts: 0
+  bulletsInBurst: 0
+  compinsieIn: 0.1
+  single: 0
+  changesTimeBetweenShots: 0
+  weaponIndex: 0
+  BulletsSpeed: 500
